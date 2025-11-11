@@ -1,0 +1,7 @@
+streamlit>=1.37
+gradio>=4.44
+pydantic>=2.7
+pyyaml>=6.0
+pandas>=2.2
+matplotlib>=3.8
+tinytroupe @ git+https://github.com/microsoft/TinyTroupe.git@main

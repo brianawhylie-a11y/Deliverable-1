@@ -1,0 +1,156 @@
+- id: pm_power_user
+  name: Priya (Power PM)
+  archetype: Product Manager Power User
+  demographics: {age: 34, location: "NYC", industry: "SaaS"}
+  traits: ["analytical", "time-pressured", "metrics-driven"]
+  goals: ["ship faster", "reduce churn", "clarity of UX"]
+  tech_literacy: expert
+  risk_aversion: medium
+  tone: direct
+  pain_points: ["ambiguous flows", "slow onboarding", "unclear KPIs"]
+  motivations: ["velocity", "evidence-based decisions"]
+  domain_expertise: ["analytics", "A/B testing"]
+  context: "Evaluates features weekly; cares about measurable impact."
+- id: gen_z_creator
+  name: Zay (Gen Z Creator)
+  archetype: Aspiring creator & student
+  demographics: {age: 20, location: "Atlanta", industry: "Creator economy"}
+  traits: ["trend-aware", "impatient", "visual-first"]
+  goals: ["grow audience", "express identity"]
+  tech_literacy: advanced
+  risk_aversion: low
+  tone: casual
+  pain_points: ["too many steps", "boring visuals", "paywalls"]
+  motivations: ["aesthetics", "speed", "social proof"]
+  domain_expertise: ["short‑form video", "IG/TikTok"]
+  context: "Uses mobile first; limited attention budget."
+- id: enterprise_admin
+  name: Marcus (Enterprise Admin)
+  archetype: Security‑conscious IT admin
+  demographics: {age: 41, location: "London", industry: "Finance"}
+  traits: ["methodical", "policy‑driven"]
+  goals: ["compliance", "manage risk", "SLA uptime"]
+  tech_literacy: expert
+  risk_aversion: high
+  tone: formal
+  pain_points: ["shadow IT", "non‑compliant data flows"]
+  motivations: ["auditability", "controls", "SSO/MFA"]
+  domain_expertise: ["SAML/OIDC", "DLP"]
+  context: "Owns rollout & procurement for 2k seats."
+- id: accessibility_advocate
+  name: Leah (Accessibility Advocate)
+  archetype: Screen‑reader user & tester
+  demographics: {age: 29, location: "Toronto", industry: "Non‑profit"}
+  traits: ["patient", "detail‑oriented"]
+  goals: ["equal access", "WCAG compliance"]
+  tech_literacy: intermediate
+  risk_aversion: medium
+  tone: thoughtful
+  pain_points: ["missing labels", "keyboard traps", "low contrast"]
+  motivations: ["usability", "compliance"]
+  domain_expertise: ["WCAG 2.2", "AT tools"]
+  context: "Relies on keyboard navigation and VoiceOver."
+- id: small_biz_owner
+  name: Dina (Small Biz Owner)
+  archetype: Local retail owner wearing many hats
+  demographics: {age: 38, location: "Detroit", industry: "Retail"}
+  traits: ["practical", "budget‑sensitive", "time‑starved"]
+  goals: ["increase sales", "reduce admin work"]
+  tech_literacy: intermediate
+  risk_aversion: medium
+  tone: direct
+  pain_points: ["complicated setup", "hidden costs"]
+  motivations: ["ROI", "simplicity"]
+  domain_expertise: ["POS", "inventory"]
+  context: "Manages 3 employees; uses mobile after hours."
+- id: new_user_novice
+  name: Ethan (New-to-tech)
+  archetype: Novice user learning basic workflows
+  demographics: {age: 55, location: "Phoenix", industry: "Logistics"}
+  traits: ["cautious", "patient"]
+  goals: ["finish tasks without errors"]
+  tech_literacy: novice
+  risk_aversion: high
+  tone: neutral
+  pain_points: ["jargon", "unlabeled icons"]
+  motivations: ["clear steps", "undo safety"]
+  domain_expertise: ["operations"]
+  context: "Prefers desktop; uses keyboard and mouse."
+- id: privacy_eu
+  name: Anja (Privacy‑Conscious EU)
+  archetype: GDPR‑focused knowledge worker
+  demographics: {age: 33, location: "Berlin", industry: "Healthcare"}
+  traits: ["detail‑oriented", "policy‑aware"]
+  goals: ["protect data", "stay compliant"]
+  tech_literacy: advanced
+  risk_aversion: high
+  tone: formal
+  pain_points: ["opaque data flows", "unnecessary tracking"]
+  motivations: ["control", "transparency"]
+  domain_expertise: ["GDPR", "DPA"]
+  context: "Coordinates with DPO; reviews DPIAs."
+- id: support_specialist
+  name: Jules (Support Specialist)
+  archetype: Customer support agent and workflow optimizer
+  demographics: {age: 27, location: "Dublin", industry: "BPO"}
+  traits: ["empathetic", "process‑minded"]
+  goals: ["reduce handle time", "increase CSAT"]
+  tech_literacy: advanced
+  risk_aversion: medium
+  tone: friendly
+  pain_points: ["context switching", "slow search"]
+  motivations: ["shortcuts", "relevance"]
+  domain_expertise: ["helpdesk", "knowledge bases"]
+  context: "Works in shifts; heavy keyboard use."
+- id: data_scientist
+  name: Ravi (Data Scientist)
+  archetype: Data‑driven power user
+  demographics: {age: 31, location: "SF", industry: "Tech"}
+  traits: ["analytical", "skeptical"]
+  goals: ["reproducible insights", "customizability"]
+  tech_literacy: expert
+  risk_aversion: low
+  tone: concise
+  pain_points: ["black‑box logic", "slow exports"]
+  motivations: ["APIs", "metrics"]
+  domain_expertise: ["ML", "analytics"]
+  context: "Automates everything; loves docs & SDKs."
+- id: non_native_english
+  name: Marcos (ES‑first)
+  archetype: Non‑native English professional
+  demographics: {age: 35, location: "Miami", industry: "Hospitality"}
+  traits: ["fast learner", "visual‑first"]
+  goals: ["avoid misunderstandings"]
+  tech_literacy: intermediate
+  risk_aversion: medium
+  tone: polite
+  pain_points: ["dense text", "idioms"]
+  motivations: ["icons", "examples"]
+  domain_expertise: ["scheduling", "CRM"]
+  context: "Switches device language between ES/EN."
+- id: color_blind_tester
+  name: Noah (Color‑blind QA)
+  archetype: Accessibility tester with deuteranopia
+  demographics: {age: 28, location: "Vancouver", industry: "QA"}
+  traits: ["detail‑oriented", "methodical"]
+  goals: ["usable without color cues"]
+  tech_literacy: advanced
+  risk_aversion: medium
+  tone: matter‑of‑fact
+  pain_points: ["color‑only states", "low contrast"]
+  motivations: ["patterns", "labels"]
+  domain_expertise: ["WCAG 2.2", "contrast ratios"]
+  context: "Keyboard first; toggles high contrast mode."
+- id: student_budget
+  name: Kai (Student on Budget)
+  archetype: Cost‑sensitive student content creator
+  demographics: {age: 19, location: "Chicago", industry: "Student"}
+  traits: ["creative", "impatient"]
+  goals: ["create fast", "spend little"]
+  tech_literacy: advanced
+  risk_aversion: low
+  tone: casual
+  pain_points: ["paywalls", "rate limits"]
+  motivations: ["free tiers", "templates"]
+  domain_expertise: ["short‑form", "mobile editing"]
+  context: "Works on phone; shares on TikTok/IG."
